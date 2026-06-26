@@ -21,8 +21,9 @@ async function identifyUser(req, res, next) {
     }
 
     req.user= decoded
+    console.log(decoded);
 
-    next()
+    next();
 
 }
 
